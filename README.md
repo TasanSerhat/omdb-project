@@ -4,7 +4,7 @@
 
 Welcome to **CineSearch**! This project is a fully responsive, modern Single Page Application (SPA) built to search and explore movies using the OMDB API. 
 
-Live Demo: [https://tasanserhat.github.io/omdb-project/]
+Live Demo: https://tasanserhat.github.io/omdb-project/
 
 ### Tech Stack
 - **HTML5** (Semantic structure)
