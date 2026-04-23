@@ -1,5 +1,39 @@
 # OMDB Movie Search Project
 
+## 🚀 My Submission (CineSearch)
+
+Welcome to **CineSearch**! This project is a fully responsive, modern Single Page Application (SPA) built to search and explore movies using the OMDB API. 
+
+### 🛠️ Tech Stack
+- **HTML5** (Semantic structure)
+- **Vanilla CSS3** (Custom properties, Flexbox/Grid, Glassmorphism design, No external libraries)
+- **Vanilla JavaScript (ES6)** (Modular architecture, Fetch API, Async/Await)
+
+### ✨ Features Implemented
+- **Dynamic Search & Debounce:** Real-time search that waits until the user stops typing to minimize API calls (Performance optimization).
+- **Advanced Filtering (Bonus):** Filter results by Type (Movie, Series, Episode) and Sort by Year (Newest/Oldest).
+- **Favorites System (Bonus):** Users can like movies and view their curated list in a dedicated "Favorites" tab.
+- **Detailed Modals:** Clicking any movie opens a modal with deep details including Plot, Director, Actors, Genre, and IMDB Ratings.
+- **State Persistence:** Implemented `localStorage` to retain the user's last search and filter state even if the page is refreshed.
+- **Custom Home Page:** A dynamic landing page showcasing iconic "Trending Movies" and "Trending Series" by default.
+- **Robust Error Handling:** Custom UI empty states and error screens for "Movie Not Found" or API failures (No raw console errors).
+- **Loading Skeletons:** Premium skeleton loaders displayed while data is being fetched.
+
+### ⚙️ How to Run Locally
+Because the project uses standard ES6 Modules (`import`/`export`), it must be served over an HTTP server to avoid CORS `file://` protocol restrictions.
+
+1. Clone the repository.
+2. Open terminal in the project directory.
+3. Run a local server. For example:
+   ```bash
+   npx serve .
+   ```
+4. Open the provided `localhost` link in your browser.
+
+---
+
+## 📚 Original Assignment Guidelines
+
 ## How to Set Up Your Repository
 
 **WARNING**: This is a template project. Do not fork this repository.
