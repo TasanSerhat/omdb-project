@@ -1,15 +1,15 @@
 # OMDB Movie Search Project
 
-## 🚀 My Submission (CineSearch)
+## My Submission (CineSearch)
 
 Welcome to **CineSearch**! This project is a fully responsive, modern Single Page Application (SPA) built to search and explore movies using the OMDB API. 
 
-### 🛠️ Tech Stack
+### Tech Stack
 - **HTML5** (Semantic structure)
 - **Vanilla CSS3** (Custom properties, Flexbox/Grid, Glassmorphism design, No external libraries)
 - **Vanilla JavaScript (ES6)** (Modular architecture, Fetch API, Async/Await)
 
-### ✨ Features Implemented
+### Features Implemented
 - **Dynamic Search & Debounce:** Real-time search that waits until the user stops typing to minimize API calls (Performance optimization).
 - **Advanced Filtering (Bonus):** Filter results by Type (Movie, Series, Episode) and Sort by Year (Newest/Oldest).
 - **Favorites System (Bonus):** Users can like movies and view their curated list in a dedicated "Favorites" tab.
@@ -19,7 +19,7 @@ Welcome to **CineSearch**! This project is a fully responsive, modern Single Pag
 - **Robust Error Handling:** Custom UI empty states and error screens for "Movie Not Found" or API failures (No raw console errors).
 - **Loading Skeletons:** Premium skeleton loaders displayed while data is being fetched.
 
-### ⚙️ How to Run Locally
+### How to Run Locally
 Because the project uses standard ES6 Modules (`import`/`export`), it must be served over an HTTP server to avoid CORS `file://` protocol restrictions.
 
 1. Clone the repository.
@@ -32,7 +32,7 @@ Because the project uses standard ES6 Modules (`import`/`export`), it must be se
 
 ---
 
-## 📚 Original Assignment Guidelines
+## Original Assignment Guidelines
 
 ## How to Set Up Your Repository
 
